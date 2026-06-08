@@ -55,6 +55,9 @@ previsor-burnout-ia/
 
 ### v1 — Random Forest
 
+![Interface do Modelo V1](assets/img/interfaceV1.png)
+![Modelo de classificação, prever o risco de burnout em estudantes e classificar em três níveis (High, Medium, Low) analisando a relação entre o tempo de estudo tradicional e o uso de IA Generativa ](assets/img/codigov1.png)
+
 - Como carregar e explorar um dataset CSV
 - Criação de feature derivada (`AI_Ratio`)
 - Treinamento e avaliação com `classification_report`
@@ -62,6 +65,9 @@ previsor-burnout-ia/
 - Construir um app interativo com Streamlit
 
 ### v2 — Gradient Boosting
+
+![Interface do Modelo V2](assets/img/interfaceV2.png)
+![Este gráfico de barras horizontais ilustra as 15 variáveis que mais influenciaram as previsões do modelo GradientBoostingClassifier.](assets/img/GraficoDe_Barras.png)
 
 - Usar mais features (numéricas e categóricas)
 - Construir um `Pipeline` com `ColumnTransformer`
@@ -71,6 +77,9 @@ previsor-burnout-ia/
 - Visualizar importância de features e confusion matrix
 
 ### v3 — Rede Neural com PyTorch
+
+![Interface do Modelo v3](assets/img/interfaceV3.png)
+![Este painel de gráficos apresenta os resultados da versão 3, construída com uma Rede Neural (PyTorch) e um sistema de aprendizado contínuo (Feedback Loop). ](assets/img/GraficosV3.png)
 
 - Definir uma rede neural com `nn.Module`
 - Usar `BatchNorm` e `Dropout` para regularização
