@@ -1,0 +1,29 @@
+{
+  "colunas_numericas": [
+    "Traditional_Study_Hours",
+    "Weekly_GenAI_Hours",
+    "AI_Ratio",
+    "AI_Dependency_x_Ratio",
+    "Perceived_AI_Dependency",
+    "Pre_Semester_GPA",
+    "Post_Semester_GPA",
+    "Anxiety_Level_During_Exams",
+    "Skill_Retention_Score",
+    "Tool_Diversity"
+  ],
+  "colunas_categoricas": [
+    "Major_Category",
+    "Year_of_Study",
+    "Primary_Use_Case",
+    "Prompt_Engineering_Skill",
+    "Institutional_Policy"
+  ],
+  "classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "input_dim": 31,
+  "versao": "3.0",
+  "acuracia_final": 0.5259
+}
